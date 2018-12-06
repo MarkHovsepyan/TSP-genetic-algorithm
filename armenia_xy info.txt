@@ -1,0 +1,22 @@
+The data in csv file called "armenia_xy.csv" is a cartesian coordinates set.
+It contains coordinates for Armenian 15 biggest cities(sorted by population size).
+I obtained this set by converting geographical data (Latitude and Longtitude) to cartesian system.
+Coordinates where then divided by 100000 in order to make it possible for matlab to process fast and plot.
+The process involved using data from http://www.tageo.com and converting it by using Python.
+Below is the original data before conversion:
+
+1	Yerevan		40.170	44.520
+2	Gyumri		40.780	43.830
+3	Vanadzor 	40.800	44.490
+4	Vagharshapat    40.160 44.290
+5	Hrazdan		40.500	44.750
+6	Abovyan		40.270	44.620
+7	Kapan		39.200	46.400
+8	Armavir		40.150	44.040
+9	Gavar		40.330	45.140
+10	Artashat	39.940	44.570
+11	Goris		39.510	46.330
+12	Charentsavan	19700	40.350	44.600
+13	Ararat		39.850	44.700
+14	Masis		40.070	44.430
+15	Ashtarak	40.300	44.350
