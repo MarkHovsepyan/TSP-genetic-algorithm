@@ -1,0 +1,1 @@
+Fully implemented genetic algorithm solver for Traveling Salesman Problem (TSP), written in MATLAB for optimization course project.
